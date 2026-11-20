@@ -1,9 +1,9 @@
 # File Storage for Spring Boot Starter
-# Copyright (c) 2025 Unikue Ltd. All rights reserved.
-# https://unikue.cn
+# Copyright (c) 2025 Jiovan Ltd. All rights reserved.
+# https://jiovan.com
 
 
-spring:
+jiovan:
     file-storage:
         concat-date: true
         storage-type: 'minio'

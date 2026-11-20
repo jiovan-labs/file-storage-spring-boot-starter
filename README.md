@@ -8,18 +8,18 @@ Spring Boot application integrates file-storage, support various storage engines
 
 ```xml
     <dependency>
-        <groupId>cn.unikue.springstarter</groupId>
+        <groupId>com.jiovan.spring.starter</groupId>
         <artifactId>file-storage-spring-boot-starter</artifactId>
         <version>LATEST</version>
     </dependency>
 ```
 
-> By default, this starter will auto take effect, you can turn it off by `spring.file-storage.enabled = false`
+> By default, this starter will auto take effect, you can turn it off by `jiovan.file-storage.enabled = false`
 
-- Configure Spring Boot `application.yml` with prefix `spring.file-storage`
+- Configure Spring Boot `application.yml` with prefix `jiovan.file-storage`
 
 ```yml
-spring:
+jiovan:
     file-storage:
         concat-date: true
         storage-type: 'minio'
@@ -86,7 +86,7 @@ public class DemoService {
 
 ## Document
 
-- Github: https://github.com/unikueltd/file-storage-spring-boot-starter
+- Github: https://github.com/jiovan-labs/file-storage-spring-boot-starter
 
 ## Requirement
 
@@ -100,12 +100,12 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to us](https://unikue.cn/donation) to support the development.
+You like this package? Then [donate to us](https://jiovan.com/donation) to support the development.
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: https://unikue.cn
+- Jiovan: https://jiovan.com

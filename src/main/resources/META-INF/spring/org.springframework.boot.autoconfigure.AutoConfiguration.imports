@@ -1,5 +1,5 @@
 # File Storage for Spring Boot Starter
-# Copyright (c) 2025 Unikue Ltd. All rights reserved.
-# https://unikue.cn
+# Copyright (c) 2025 Jiovan Ltd. All rights reserved.
+# https://jiovan.com
 
-cn.unikue.springstarter.filestorage.config.FileStorageAutoConfiguration
+com.jiovan.spring.starter.filestorage.config.FileStorageAutoConfiguration
